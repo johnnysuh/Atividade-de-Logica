@@ -1,0 +1,8 @@
+const verificarPalindromo = (text) => {
+    const palindromo = text.split('')
+    .reverse()
+    .join('');
+    return palindromo === text ? 'Palindromo' : 'Nao palindromo';
+}
+
+console.log(verificarPalindromo('luzazul'));

@@ -1,0 +1,19 @@
+function contarVogais(str) {
+
+    const vogais = ["a", "e", "i", "o", "u"]
+    let count = 0
+
+    for (var caractere = 0; caractere < str.length; caractere++) {
+        for (var vogal = 0; vogal < vogais.length; vogal++) {
+            if (str[caractere] === vogais[vogal]) {
+            
+            count++
+        }
+    }
+}
+
+return count
+}
+
+const result = contarVogais("triples xinyu")
+console.log(result)

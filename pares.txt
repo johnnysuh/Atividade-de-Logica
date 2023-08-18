@@ -1,0 +1,11 @@
+function pares (array) {
+    let numerosPares = [];
+    for (const n of array){
+    if (n%2 ==0) {
+        numerosPares.push(n)
+    }
+}
+return numerosPares
+
+}
+console.log(pares([1, 2, 3]));
